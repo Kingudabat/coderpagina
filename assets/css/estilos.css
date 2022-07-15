@@ -53,6 +53,20 @@ body {
 }
 
 /* body index */
+
+.primer-com{
+color: #fff;
+text-align: center;
+-webkit-transition: color 2s;
+transition: color 2s;
+font-size: 50px;
+background: rgba(0, 0, 0, 0.9);
+}
+
+.primer-com:hover{
+	color: green;
+
+}
 .logo-index{
 	text-align: center;
 	padding-top: 100px;
