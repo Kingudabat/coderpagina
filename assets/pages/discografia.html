@@ -1,63 +1,60 @@
 <html>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/estilos.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/estilos.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <header class="header">
+  <!-- navbar -->
+  <header>
+    <nav class="navbar  navbar-expand-sm navbar-dark bg-dark bg-gradient ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/img/descarga.png" alt="" width="70px">
+        </a>
 
-        <nav class="header-navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toogle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item"><a class="nav-link" href="/assets/pages/bio.html">Bio</a></li>
+            <li class="nav-item"><a class="nav-link" href="/assets/pages/discografia.html">Discografia</a></li>
+            <li class="nav-item"><a class="nav-link" href="/assets/pages/galeria.html">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="/assets/pages/contacto.html">Contacto</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- -main- -->
+  <main class="bg-danger ">
+    
+  <div class="container p-5 " id="containerDiscId">
+    <h1 class="text-white text-center pb-4">Discografia</h1>
+    <div class="card mb-3 " style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4 p-1 mt-5">
+          <a href="https://open.spotify.com/album/3mh25iM0xgXNQpsR91kqCR?si=cej9p2X9R164_WxqGpKP7w"><img src="/assets/img/dc.jpg" class="img-fluid rounded-start" alt="..."></a>
+          
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Ding Dong Rocket - 2021</h5>
+            <p>
 
 
-
-
-
-            <ul>
-
-                <li><a href="/index.html">Inicio</a></li>
-
-
-                <li><a href="./bio.html">Bio</a></li>
-
-
-                <li><a href="./discografia.html">Discografia</a></li>
-
-
-                <li><a href="./galeria.html">Galeria</a></li>
-
-
-                <li><a href="./contacto.html">Contacto</a></li>
-
-            </ul>
-
-
-
-            </div>
-
-        </nav>
-    </header>
-
-    <div class="logo-dis">
-        <img src="/assets/img/descarga.png" width="300px" alt="">
-    </div>
-
-    <div class="disc">
-        <div class="disc-container">
-          <h1 class="title-disc">DISCOGRAFIA</h1>
-
-            <div class="disc-dingong">
-              <figure>
-                <img src="/assets/img/dc.jpg" alt="">
-              </figure>
-            <p>                
-                
-            
-             <ol  type="1">
+              <ol type="1">
                 <li>Ding Dong Rocket </li>
                 <li>Gato Roñoso </li>
                 <li>Friccion </li>
@@ -65,18 +62,68 @@
                 <li>Tango Blues para una Chica</li>
                 <li>La Mala </li>
                 <li>La Viudita</li>
-             </ol>
+              </ol>
             </p>
-            
-              <p class="subtitle-disc">2021</p>
-            </div>
+            <p class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4 p-1 mt-5">
+          <a href="https://open.spotify.com/album/0ffgswBm1cJXC1VHnarBai?si=zVPhS5sJSq2xXlVT5sMzTA"><img src="/assets/img/laEx.jpeg" class="img-fluid rounded-start" alt="..."></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">La EX - 2022</h5>
+            <p>
 
-        <footer class="footer-dis">
+
+              <ol type="1">
+                <li>La Ex </li>
+                <li>Blues del 11 </li>
+                <li>Sinvergüenza </li>
+                <li>Esa morena</li>
+                <li>Fricción (remasterizada)</li>
+                <li>La vida es un rock and roll </li>
+                <li>4 tazas de té</li>
+                <li>Carcancherito</li>
+              </ol>
+            </p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+  <!-- footer -->
+  <div id="footer" class="p-5">
+    <div class="container-fluid w-50 pt-5">
+      <div class="row   justify-content-md-center">
+        <div class="col text-center">
+          <a href="/assets/pages/contacto.html"
+            class="btn btn-lg rounded-pill btn-warning  p-3 shadow-sm font-weight-bold"> Contactanos! </a>
+
+        </div>
+        <div class="row justify-content-md-center py-5 ">
+          <div class="col  text-center font-weight-light text-danger">
             <small>&copy; Copyright 2022, La river blues band</small>
-        </footer>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 
 
+  <script src="/assets/js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+<script src="/assets/js/bootstrap.min.js"
+  integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+</script>
 </body>
+
 </html>
